@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/scripts.js" defer></script>
+    <script src="https://kit.fontawesome.com/e13387cc3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img src="/img/jovemD.jpg">
+    <div class="descricao">
+        <h2>808</h2>
+        <i class="nomeArtista">Jovem Dex</i>
+    </div>
+    <div class="duracao">
+        <div class="barra">
+            <progress value="0" max="1"></progress>
+            <div class="ponto"></div>
+        </div>
+        <div class="tempo">
+            <p class="inicio">0:00</p>
+            <p class="fim">3:40</p>
+        </div>
+    </div>
+    <div class="player">
+        <i class="fa-solid fa-backward setas anterior" style="color: #ffffff;"></i>
+        <i class="fa-duotone fa-play botao-play" id="botao-play" style="--fa-primary-color: #ffffff; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 0.5;"></i>
+        <i class="fa-solid fa-pause botao-pause" style="color: #ffffff;"></i>
+        <i class="fa-solid fa-forward setas proxima" style="color: #ffffff;"></i>
+    </div>
+    <audio src="/musicas/808.mp3"></audio>
+</body>
+</html>
